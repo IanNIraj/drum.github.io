@@ -1,0 +1,156 @@
+body {
+  background-image: url("images/Unknown.jpeg");
+      background-size: auto;
+     
+  text-align: center;
+  background-color: #283149;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+footer {
+  color: #f00909;
+  font-family: sans-serif;
+  align-self: auto;
+  font-size: 3rem;
+}
+
+.w {
+  background-image: url("images/tom1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  transform: rotate(-10deg);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.a {
+  background-image: url("images/tom2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  transform: rotate(5deg);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.s {
+  background-image: url("images/tom3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  transform: rotate(0deg);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.d {
+  background-image: url("images/tom4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  transform: rotate(-5deg);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.j {
+  background-image: url("images/snare.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  transform: rotate(10deg);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.k {
+  background-image: url("images/crash.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  transform: rotate(-15deg);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.l {
+  background-image: url("images/kick.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  transform: rotate(15deg);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.p{background-image: url("images/pig.mp3");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  transform: rotate(15deg);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3)
+}
+
+
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+#drum-name {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  z-index: 9999;
+  cursor: move;
+}
+
+
