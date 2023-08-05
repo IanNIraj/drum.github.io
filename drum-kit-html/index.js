@@ -55,10 +55,7 @@ function makeSound(key) {
       audio.play();
       break;
 
-    case "p":
-    audio.src="sounds/pig.mp3";
-    audio.play();
-    break;
+    
   }
 }
 
